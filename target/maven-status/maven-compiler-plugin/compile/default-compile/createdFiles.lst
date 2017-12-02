@@ -1,0 +1,4 @@
+net/lr/tutorial/karaf/cxf/personrest/impl/PersonServiceStarter.class
+net/lr/tutorial/karaf/cxf/personrest/impl/ThresholdService.class
+net/lr/tutorial/karaf/cxf/personrest/impl/ThresholdServiceImpl.class
+net/lr/tutorial/karaf/cxf/personrest/impl/Threshold.class

@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1512207427530
+Build-Jdk: 1.8.0_151
+Built-By: netfpga
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: personrest-server
+Bundle-SymbolicName: net.lr.tutorial.karaf.cxf.personrest.server
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.ws.rs;version="[2.0,3)",javax.xml.bind.annotation,
+ org.apache.cxf.endpoint;version="[3.1,4)",org.apache.cxf.jaxrs;version=
+ "[3.1,4)",org.apache.cxf.jaxrs.lifecycle;version="[3.1,4)",org.apache.c
+ xf.jaxrs.provider;version="[3.1,4)",org.osgi.service.blueprint;version=
+ "[1.0.0,2.0.0)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326
